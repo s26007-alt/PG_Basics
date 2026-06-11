@@ -1,0 +1,14 @@
+takuma = {
+        "名前": "當眞琢磨",
+        "好きな色" : "青",
+        "最近ハマってる曲" : "ザムザ、あぶく",
+        "苦手なもの" : "においが強い食べ物"
+}
+
+ask = input("知りたい特徴を入力してください->")
+if ask in takuma:
+    answer = takuma[ask]
+    print(answer)
+else:
+    print("それは分からいないです")
+
